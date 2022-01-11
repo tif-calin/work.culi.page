@@ -13,11 +13,11 @@ https://prismjs.com/download.html#themes=prism-solarizedlight&languages=markup+c
 SOLARIZED HEX
 --------- -------
 base03    #002b36
-base02    #073642
-base01    #586e75
-base00    #657b83
+base02    #073642 --> text selection color
+base01    #586e75 --> punctuation like ;, [], etc
+base00    #657b83 --> text
 base0     #839496
-base1     #93a1a1
+base1     #93a1a1 --> comments, doctypes
 base2     #eee8d5
 base3     #fdf6e3
 yellow    #b58900
@@ -26,13 +26,14 @@ red       #dc322f
 magenta   #d33682
 violet    #6c71c4
 blue      #268bd2
-cyan      #2aa198
+cyan      #2aa198 
 green     #859900
 */
 
 code[class*="language-"],
 pre[class*="language-"] {
 	color: #657b83; /* base00 */
+	color: var(--color-text);
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -103,6 +104,7 @@ pre[class*="language-"] {
 .token.symbol,
 .token.deleted {
 	color: #268bd2; /* blue */
+	color: var(--color-blue);
 }
 
 .token.selector,
@@ -112,7 +114,8 @@ pre[class*="language-"] {
 .token.builtin,
 .token.url,
 .token.inserted {
-	color: #2aa198; /* cyan */
+	color: var(--color-cyan); /* #2aa198 */
+	color: var(--color-cyan); 
 }
 
 .token.entity {
@@ -124,17 +127,20 @@ pre[class*="language-"] {
 .token.attr-value,
 .token.keyword {
 	color: #859900; /* green */
+	color: var(--color-green);
 }
 
 .token.function,
 .token.class-name {
 	color: #b58900; /* yellow */
+	color: var(--color-yellow);
 }
 
 .token.regex,
 .token.important,
 .token.variable {
 	color: #cb4b16; /* orange */
+	color: var(--color-orange);
 }
 
 .token.important,

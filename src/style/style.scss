@@ -8,9 +8,16 @@
 @import url('_prism.css');
 
 html {
+  // rainbow
+  --color-red: #c1605c;
+  --color-blue: #339af0;
+  --color-cyan: #22b8cf;
+  --color-yellow: #fcc419;
+  --color-orange: #ff922b;
+
   // base colors
   --color-bg: #f3e9c6;
-  --color-secondary: #c1605c;
+  --color-secondary: hsl(2, 45%, 56%);
   --color-text: #1b272f;
   --color-border: #3f474f;
   --color-text-inverse: #fafafa;
