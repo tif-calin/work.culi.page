@@ -15,10 +15,11 @@
  - [x] rework styling organization
  - [ ] add a picture to the about section with a shape-outside
  - [x] add language icons to tabs
- - [ ] add external link icon for projects
+ - [x] add external link icon for projects
  - [ ] get my page on nownownow
  - [ ] make fancy header that follows you once you scroll below splash section
  - [x] add page changelog to now page
- - [ ] add changelogs for each project for now page
- - [ ] update styling colors of prism text
- - [ ] finish writing rcv code
+ - [ ] now: add changelogs for each project for now page
+ - [x] rcv: update styling colors of prism text
+ - [ ] rcv: finish writing rcv code
+ - [ ] your accessibility is trash

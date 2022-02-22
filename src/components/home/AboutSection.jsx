@@ -15,7 +15,7 @@ const outputs = [
     <p>Check out my <Link className="special" to="/now">now</Link> page to see what I'm currently obsessing over!</p>
   </div>,
   <div>
-    <p>Modern HTML, CSS, and JavaScript are powerful and often-overlooked tools. When it comes to efficient, sustainable, and dependable web design, nothing really beats a static site with minimal dependencies.</p>
+    <p>Modern HTML5, CSS3, and ES6 JavaScript are powerful and often-overlooked tools for smaller projects that promote a <a href="https://handmade.network/manifesto">handmade</a> <a href="https://gossipsweb.net/">web</a>. When it comes to efficient, sustainable, and dependable web design, nothing really beats a static site with minimal dependencies.</p>
     <br/>
     <p>Click to checkout some of the <a className="special" href="https://culi.page/toys/" target="_blank" rel="noreferrer">toys</a> I've built for myself using vanilla HTML/CSS/Javascript!</p>
   </div>,
